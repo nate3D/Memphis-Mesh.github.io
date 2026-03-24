@@ -6,7 +6,7 @@ sidebar_position: 2
 
 ## Medical District v3 MemphisMesh.com (medi)
 
-[View !27ef756b  on meshmap.net](https://meshmap.net/#670004587).
+[View !27ef756b on meshmap.net](https://meshmap.net/#670004587).
 
 | [![Medical District Node](../static/img/med_district_1.jpg)](../static/img/med_district_1.jpg) | [![Medical District Installation](../static/img/med_district_2.jpg)](../static/img/med_district_2.jpg) |
 | --- | --- |
