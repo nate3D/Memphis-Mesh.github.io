@@ -51,7 +51,7 @@ If you'd like your node to contribute to the mesh via the internet and serve as 
 | Enabled | True |
 | MQTT Client Proxy | True (uses your bluetooth-connected device as a proxy to the MQTT server) |
 | Connect to MQTT via Proxy | True (uses your bluetooth-connected device as a proxy to the MQTT server; enable if previous is set to True) |
-| Encyption Enabled | True (optional -- if you want your data to be encrypted before being published online) |
+| Encyption Enabled | True |
 | Map Report Enabled | True |
 | Consent to Share Unencrypted Data | True (optional -- if you want to share unencrypted data online) |
 | Root Topic | msh/US/memphismesh.com |
