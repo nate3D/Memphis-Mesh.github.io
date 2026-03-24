@@ -19,7 +19,7 @@ This node is configured for MediumFast preset and the default channel 0 with key
 
 This node is built using the guts of a NEBRA miner and is centered around a Raspberry Pi. It is powered via PoE and housed in a metal enclosure. The system features a 1W LoRa HAT for increased transmission power and includes a GPS module for location services, along with a SIM card slot for potential cellular connectivity.
 
-A key component is the Airframes cavity filter, tuned to the MediumFast channel plan, which helps reduce interference and improve signal quality. The node is connected to a Diamond 900 MHz antenna, optimized for performance in the 900 MHz band, providing reliable omnidirectional coverage.
+A key component is the Airframes cavity filter, tuned to the MediumFast modem preset, which helps reduce interference and improve signal quality. The node is connected to a Diamond 900 MHz antenna, optimized for performance in the 900 MHz band, providing reliable omnidirectional coverage.
 
 ### Connectivity
 
