@@ -1,22 +1,25 @@
 # Nodes
 
-## Medical District memphisme.sh v2 (👀)
+## Medical District v3 MemphisMesh.com (medi)
 
-[View !67812a87 on meshmap.net](https://meshmap.net/#1736518279).
+[View !27ef756b  on meshmap.net](https://meshmap.net/#670004587).
 
-This node provides good coverage in the medical district, downtown, and in the neighborhoods nearby. The closer you get to the I-240 loop, the more marginal performance becomes, though rooftop nodes can consistently get connections.
+| [![Medical District Node](../static/img/med_district_1.jpg)](../static/img/med_district_1.jpg) | [![Medical District Installation](../static/img/med_district_2.jpg)](../static/img/med_district_2.jpg) |
+| --- | --- |
 
-This node is configured for LongFast preset and the default channel 0 with key `AQ==`.
+This node provides great coverage in the medical district, downtown, and in the neighborhoods nearby. The closer you get to the I-240 loop, the more marginal performance becomes, though rooftop nodes can consistently get connections.
+
+This node is configured for MediumFast preset and the default channel 0 with key `AQ==`.
 
 ### Hardware
 
-This node is a [MeshAdv Pi Hat](https://github.com/chrismyers2000/MeshAdv-Pi-Hat) running on top of a Raspberry Pi 5B. The node has a [Callboost 915 MHz Band Pass Filter](https://www.aliexpress.com/i/3256804282645306.html?gatewayAdapt=4itemAdapt) to help reduce adjacent interference, which this site has plenty of between cell, public safety, and hospital paging systems.
+This node is built using the guts of a NEBRA miner and is centered around a Raspberry Pi. It is powered via PoE and housed in a metal enclosure. The system features a 1W LoRa HAT for increased transmission power and includes a GPS module for location services, along with a SIM card slot for potential cellular connectivity.
 
-The node is inside a 2 post rack adjacent to amateur radio equipment from HamWAN Memphis Metro and Tri-State Repeater Association. From the cabinet to the tower, the site is fed with 30 ft LMR-300. The antenna is a [MikroTik 915 MHz 5.2 dBi antenna](https://mikrotik.com/product/915_omni_antenna).
+A key component is the Airframes cavity filter, tuned to the MediumFast channel plan, which helps reduce interference and improve signal quality. The node is connected to a Diamond 900 MHz antenna, optimized for performance in the 900 MHz band, providing reliable omnidirectional coverage.
 
 ### Connectivity
 
-This node is configured to uplink to the official Meshtastic MQTT server on the `us/memphisme.sh` topic.
+This node is configured to uplink to the official Meshtastic MQTT server on the `msh/US/memphismesh.com` topic.
 
 #### AI-enabled bot
 
