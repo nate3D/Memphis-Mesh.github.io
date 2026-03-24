@@ -37,10 +37,8 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Memphis-Mesh/Memphis-Mesh.github.io/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -48,11 +46,8 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
+            'https://github.com/Memphis-Mesh/Memphis-Mesh.github.io/tree/main/',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -65,14 +60,8 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'Memphis Mesh',
-      // logo: {
-      //   alt: 'My Site Logo',
-      //   src: 'img/logo.svg',
-      // },
       items: [
         {
           type: 'docSidebar',
@@ -81,57 +70,40 @@ const config: Config = {
           label: 'Getting Connected',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
-        { 
+        {
           href: 'https://discord.gg/xBDtwEKYQ4',
           label: 'Discord Chat',
-          'position': 'left'
+          position: 'left',
         },
-        // {
-        //   href: 'https://github.com/facebook/docusaurus',
-        //   label: 'GitHub',
-        //   position: 'right',
-        // },
+        {
+          href: 'https://github.com/Memphis-Mesh',
+          label: 'GitHub',
+          position: 'right',
+        },
       ],
     },
     footer: {
       style: 'dark',
       links: [
-        // {
-        //   title: 'Docs',
-        //   items: [
-        //     {
-        //       label: 'Tutorial',
-        //       to: '/docs/intro',
-        //     },
-        //   ],
-        // },
-        // {
-        //   title: 'Community',
-        //   items: [
-        //     {
-        //       label: 'Stack Overflow',
-        //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-        //     },
-        //     {
-        //       label: 'Discord',
-        //       href: 'https://discordapp.com/invite/docusaurus',
-        //     },
-        //     {
-        //       label: 'X',
-        //       href: 'https://x.com/docusaurus',
-        //     },
-        //   ],
-        // },
         {
-          title: 'More',
+          title: 'Community',
           items: [
             {
-              label: 'Map',
-              to: 'https://meshmap.net/#862579180',
+              label: 'Discord',
+              href: 'https://discord.gg/xBDtwEKYQ4',
             },
             {
               label: 'GitHub',
               href: 'https://github.com/Memphis-Mesh',
+            },
+          ],
+        },
+        {
+          title: 'More',
+          items: [
+            {
+              label: 'Live Map',
+              href: 'https://meshmap.net/#862579180',
             },
           ],
         },

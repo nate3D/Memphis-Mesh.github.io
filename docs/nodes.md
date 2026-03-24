@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Nodes
 
 ## Medical District v3 MemphisMesh.com (medi)

@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Neighbor Groups
 
 * Birmingham, Alabama: [Birmingham Mesh](https://birminghammesh.org/)
